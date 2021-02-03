@@ -1,0 +1,20 @@
+---
+title: Leanne was here
+layout: default
+potato: this is a test
+---
+
+<h1>{{ site.title }}</h1>
+<!-- this pulls the title from the config.yml file -->
+
+<div class="blog-posts">
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.excerpt }}</p>
+            <p class="read-more">Read more <img src="/assets/images/chevron.svg"></p>
+        </a>
+    {% endfor %}
+    <!-- this is a liquid templating tag that will loop over each post and print out the information (post title. exercept, etc.) -->
+    <!-- The information we want to show is wrapped in a href that links to the blog post page -->
+</div>
