@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: leanne.cuppage@gmail.com
 description: A blog about Japan
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: superhi_
 github_username: leannecuppage
 theme: minima
