@@ -4,8 +4,11 @@
     </a>
     <!-- forward slash is the home page -->
     <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <!-- this links ot the about.md page (permalink /about) -->
+        <a href="/" {% if page.url == "/" %} class="selected"{% endif %}>Home</a>
+        <!-- if the page.url is the same as home (/), add a class selected -->
+        <a href="/about/" {% if page.url == "/about/" %} class="selected"{% endif %}>About</a>
+        <!-- if the page.url is the same as about, add a class selected -->
+        <!-- this links ot the about.md page (permalink /about/) -->
+        <a href="/contact/" {% if page.url == "/contact/" %} class="selected"{% endif %}>Contact</a>
     </nav>
 </header>

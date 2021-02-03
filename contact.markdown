@@ -1,7 +1,9 @@
 ---
 title: Contact
-date: 2021-02-03 09:39:00 Z
-Field name: 
+permalink: "/contact/"
+layout: default 
 ---
 
-If you want to contact us, email us at [leanne.cuppage@gmail.com](mailto:leanne.cuppage@gmail.com).
+### Contact Us
+
+If you want to contact us, please email us at [leanne.cuppage@gmail.com](mailto:leanne.cuppage@gmail.com).
